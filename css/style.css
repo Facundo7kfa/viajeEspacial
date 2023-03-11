@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,400;1,600&family=Libre+Baskerville:wght@400;700&family=Montserrat&family=Orbitron:wght@400;600;900&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,400;1,600&family=Libre+Baskerville:wght@400;700&family=Montserrat&family=Orbitron:wght@400;600;700;900&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,400;1,600&family=Libre+Baskerville:wght@400;700&family=Montserrat&family=Orbitron:wght@400;600;700;900&family=Teko:wght@400;500;600;700&display=swap');
+/* _______________________________import___________________________ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*______________________________ HEADER________________________________ */
+
+.tune__logo{  margin-bottom: -40px;}
+header{
+    height: 20%;
+    color: #212121;
+    font-family:'Orbitron', sans-serif;
+    font-size: x-large ; 
+}
+nav{ overflow: hidden;
+    margin-left: 400px;
+}
+nav ul li{ display: inline;
+}
+nav ul li .a:hover { color:#fffdfc; font-size: 25px;
+}
+.a{  
+    margin-left: 60px;
+    text-decoration: none;
+    color: #FFA500;
+    letter-spacing: 5px;
+}  
+
+
+
+img { height:10vh;
+}
+/*_____________________________ BODY _____________________________________ */
+body{
+    background-color: #111010;
+}
+/* ______________________________FORMULARIO REGISTRO _______________________ */
+.registrate { 
+    width: 20vw;
+    height: 70vh;
+    margin: 10px ;
+    font-family: 'Orbitron', sans-serif;
+    background-color:  #FFA500;
+    position: relative;
+    text-align: center;
+    border-radius:50px  1px;
+    overflow: auto;
+    
+}
+/* ________________________________MAIN______________________________________ */
+main { 
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/027/204/833/large/justin-wentz-overhex-hangar-copy.jpg?1590882414);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+/*___________________________________ARTICLE UNO_______________________ ______*/
+.article__1 {
+    background-color: #111010;
+    height: 50vh;
+    font-family: 'Orbitron', sans-serif;
+}
+.parte_1{  position: absolute;
+}
+.parte_2 { margin-left: 200px;
+}
+.parte_3 { position: absolute;
+        margin-left: 500px;
+        margin-top: -100px;
+}
+
+.parte_4 {margin-left: 700px; margin-top: -100px;
+}
+
+.fecha__Partida {margin-left: 500px;}
+.fecha__Regreso { margin-left:700px ; margin-top: -20px;}
+.parte_de_color {color: #FFA500;}
+
+.div__viaje {  
+        text-align: center;
+        width:100px;
+        padding: 20px;
+        background-color:  #FFA500; 
+        margin: 10px;
+        font-family: 'Orbitron', sans-serif;    
+}
+.h1__viaje {
+        text-align: end;
+        font-weight: bold;
+        font-size: 50px;
+        color: #FFA500;
+}
+.nave i {  color: #FFA500;
+          ;}
+
+
+.checkbox__color { background-color: #f09e05; }
+/* __________________________________ARTICLE DOS __________________________________________ */
+
+.article__2{ 
+    height: 70vh;
+    background-image: url( https://cdna.artstation.com/p/assets/images/images/027/204/838/large/justin-wentz-takeoff-final-v02-copy.jpg?1590880574);
+    font-family: 'Orbitron', sans-serif;
+}
+/* _____________________________________ARTICLE3_______________________________________________________ */
+.entidad { 
+    height: 10vh;
+    color: blanchedalmond;
+    background-color: #00000096;
+    position: relative;
+    margin-left: 40%;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    overflow: auto;
+    border-radius: 50px 0 0 50px ;
+    margin-bottom: 50px;
+    
+}
+/*_____________________________________ FOOTER__________________________________________________*/
+
+footer{ 
+    height: 40vh;
+    background-color: #141313;
+    font-family: 'Teko', sans-serif;
+}
+
+.copy{ color: #FFA500;
+    font-size: 20px;
+    text-align: center;}
+
+  
+  footer p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer li {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 400px;
+  }
+  
+  footer i {
+    margin-right: 10px;
+    
+  }
+  
+  footer a {
+    color: #333;
+    text-decoration: none;
+    
+  }
+h3 { color: #FFA500; }
+  .lima { color: #FFA500;
+}
+  .limon { background-color: #FFA500;}
+
+  footer a:hover {
+    color: #000000;
+    font-size: 30px;
+
+  }
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
