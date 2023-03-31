@@ -1,0 +1,44 @@
+.TUNE {
+    color: $dorado-blindado;
+  }
+
+.my-navbar {
+    font-family: $tipografia-tune;
+  }
+  .my-button {
+    background-color:$galactic-black;
+  }
+
+
+header {
+        font-family:$tipografia-tune;
+        font-size: x-large;
+        nav ul li .a {
+                  text-decoration: none;
+                  color: $dorado-blindado;
+                  letter-spacing: 5px;
+                  margin-left: 80px;
+                      &:hover {
+                          color: #fffdfc;
+                          font-size: 25px;
+                      }
+
+                }
+    
+}    
+
+@media screen and (max-width: 1370px) {
+
+    header {  
+        nav ul li .a {
+                letter-spacing: 0;
+          
+                    &:hover {
+    
+                    }
+
+              }
+  
+      }    
+
+}

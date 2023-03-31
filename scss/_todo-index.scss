@@ -1,0 +1,104 @@
+
+/* _________________________________main__________________________ */
+main {
+    background-color: $casi-black;
+  }
+  
+  .main__index {
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/027/204/833/large/justin-wentz-overhex-hangar-copy.jpg?1590882414);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
+  }
+  
+
+  @media screen  and (min-width:200px) and (max-width:1024px){
+
+    .main__index {
+      background-image: url( https://cdna.artstation.com/p/assets/images/images/000/678/574/large/jessica-rossier-concept-art-leaving-the-world-jessica-rossier.jpg?1443929515);
+    }
+    .viaje__fecha { 
+      background-image: linear-gradient(  to bottom ,  #1d1d1d76,  #000000ca);
+    }
+  
+  }
+  
+  
+
+  h1 h2 .col-sm-7 {
+    font-family: $tipografia-tune;
+  }
+
+/* _________________________.Registrate_____________________________ */
+  .registrate {
+    margin: 10px;
+    font-family: $tipografia-tune;
+    background-color:$dorado-blindado;
+    text-align: center;
+    border-radius: 50px 1px;
+    overflow: auto;
+  
+  }
+
+
+  @media screen and (min-width: 1200px) and (max-width: 2000px) {
+    .registrate {
+      width: 20vw;
+      height: 70vh;
+    }
+  }
+
+
+
+
+  @media only screen and (min-width: 200px) and (max-width: 1198px) {
+    .viaje__fecha {
+      background-color: #1d1d1de3;
+    }
+    .registrate {
+      background-color: $dorado-blindado;
+      overflow: auto;
+      height: 20vh;
+    }
+  
+  }
+  
+
+
+/*__________________________________ARTICLE UNO iNDEX_______________________ ______*/
+.viaje__fecha {
+  background-color:$casi-black ;
+  font-family: $tipografia-tune;
+}
+.form-check-label {
+  font-size: 30px;
+}
+.h1__viaje {
+  color: $dorado-blindado;
+}
+
+section article {
+  font-family: $tipografia-tune;
+  color: $dorado-blindado;
+  text-align: center;
+}
+/* _______ ___________________________ARTICLE DOS INDEX __________________________________________ */
+
+.article__2 {
+  height: 70vh;
+  background-image: url(https://cdna.artstation.com/p/assets/images/images/027/204/838/large/justin-wentz-takeoff-final-v02-copy.jpg?1590880574);
+  font-family: "Orbitron", sans-serif;
+}
+/* _____________________________________ARTICLE3 INDEX_______________________________________________________ */
+.entidad {
+  height: 10vh;
+  color: blanchedalmond;
+  background-color: #00000096;
+  position: relative;
+  margin-left: 40%;
+  text-align: center;
+  font-family: $tipografia-tune;
+  overflow: auto;
+  border-radius: 50px 0 0 50px;
+  margin-bottom: 50px;
+}
