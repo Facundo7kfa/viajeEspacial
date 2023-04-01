@@ -3,3 +3,63 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+
+  body {
+    background-color: $color-body;
+  }
+  
+
+
+  .col-lg-6 {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  
+.container-lg  {
+  text-align: center;
+  font-family: $tipografia-tune;
+  }
+
+
+  
+.fondo__black{ 
+      $fondo_black:$fondo_black
+              }
+
+
+
+.puedes { 
+  background-color:$casi-black;
+  padding: 20px;
+}
+        
+.my-conteiner__info{ 
+width: auto;
+height: auto;
+  }
+
+
+        .conteiner__mapa { 
+          $fondo_black--transparente
+        }
+
+        .my-card__info { 
+          $bordes-radio-fachero
+          background-color: $dorado-blindado;
+        background-repeat: no-repeat ;
+        }
+        
+
+
+        .my-columna { text-align: center;
+          font-family: $tipografia-tune;
+          background-image: url;}
+        
+      
+          
+.my-card__seguro { 
+  $fondo_black--transparente--gradiente;
+}
+            

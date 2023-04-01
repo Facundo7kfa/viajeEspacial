@@ -1,0 +1,15 @@
+@mixin border-position ($bottom ) { 
+    position: absolute;
+    border-top: 20px solid $galactic-black;
+    border-left: 10px solid transparent;
+    border-right: 20px solid transparent;
+    bottom: $bottom
+    left: 10px;
+
+}
+
+
+
+
+
+

@@ -8,3 +8,23 @@ $casi-black: #141313;
 
 $tipografia-tune:"Orbitron", sans-serif;
 
+
+
+$fondo_black:(
+    background-color: $galactic-black);
+
+$fondo_black--transparente:(
+    background-color: #242222b1);
+
+$fondo_black--transparente--gradiente:(
+    background-image: linear-gradient(  to bottom ,  #1d1d1dd4,  #000000e9));
+
+
+$bordes: (  
+$bordes-radio-fachero:( border-radius: 50px 1px);
+
+$bordes-radio-r: (  border-radius: 0px 70px 0 70px;);
+
+$bordes-apurado: ( border-radius:4px 53px 50px; );
+)
+

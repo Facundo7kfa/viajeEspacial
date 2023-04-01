@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,400;1,600&family=Libre+Baskerville:wght@400;700&family=Montserrat&family=Orbitron:wght@400;600;900&family=Teko&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,400;1,600&family=Libre+Baskerville:wght@400;700&family=Montserrat&family=Orbitron:wght@400;600;700;900&family=Teko&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,400;1,600&family=Libre+Baskerville:wght@400;700&family=Montserrat&family=Orbitron:wght@400;600;700;900&family=Teko:wght@400;500;600;700&display=swap");
-/* _______________________________import___________________________ */
+/* __________________________________________________________ */
 .TUNE {
   color: #ffa500;
 }
@@ -45,7 +45,126 @@ body {
   background-color: #222222;
 }
 
-/* _________________________________(∩ ͡° ͜ʖ ͡°)⊃━☆ﾟ. * ･ ｡ﾟ  main__________________________ */
+.col-lg-6 {
+  flex-direction: row;
+  align-items: center;
+}
+
+.container-lg {
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+}
+
+.fondo__black {
+  background-color: #000000;
+}
+
+.puedes {
+  background-color: #141313;
+  padding: 20px;
+}
+
+.my-conteiner__info {
+  width: auto;
+  height: auto;
+}
+
+.conteiner__mapa {
+  background-color: rgba(36, 34, 34, 0.6941176471);
+}
+
+.my-card__info {
+  border-radius: 50px 1px;
+  background-color: #ffa500;
+  background-repeat: no-repeat;
+}
+
+.my-columna {
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  background-image: url;
+}
+
+.my-card__seguro {
+  background-image: linear-gradient(to bottom, rgba(29, 29, 29, 0.831372549), rgba(0, 0, 0, 0.9137254902));
+}
+
+.main__seguridad {
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/045/607/005/large/vadim-sadovski-b35.jpg?1643124860);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.main__seguridad .my-card {
+  width: auto;
+  display: flex;
+  margin-top: 15rem;
+  margin-bottom: 20rem;
+}
+@media screen and (min-width: 200px) and (max-width: 1024px) {
+  .main__seguridad .my-card .my-card {
+    height: 70vh;
+    overflow: auto;
+  }
+}
+
+.my-seguridad {
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/012/320/861/large/vadim-sadovski-a6.jpg?1534192489);
+}
+
+.mensaje_m {
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  overflow: auto;
+  border-radius: 0px 70px 0 70px;
+  font-size: 2vw;
+  background-color: #ffa500;
+}
+
+/* ______________________________________________PAGINA DE SEGURIDAD ______________________________________________ */
+.flex_div {
+  display: none;
+  flex-direction: none;
+}
+@media screen and (min-width: 200px) and (max-width: 540px) {
+  .flex_div .flex__div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.globo-conversacion {
+  background-color: #090909;
+  border-radius: 10px;
+  color: #000000;
+  padding: 10px;
+  position: relative;
+  max-width: 250px;
+  font-size: 16px;
+  font-family: "Orbitron", sans-serif;
+  margin-left: 55vw;
+}
+.globo-conversacion::before {
+  content: "";
+  position: absolute;
+  border-top: 20px solid #000000;
+  border-left: 10px solid transparent;
+  border-right: 20px solid transparent;
+  bottom: -20px;
+  left: 10px;
+}
+.globo-conversacion::after {
+  content: "";
+  position: absolute;
+  border-top: 20px solid #000000;
+  border-left: 10px solid transparent;
+  border-right: 20px solid transparent;
+  bottom: -18px;
+  left: 10px;
+}
+
 main {
   background-color: #141313;
 }
@@ -70,10 +189,6 @@ main .main__index section article {
   font-family: "Orbitron", sans-serif;
   color: #ffa500;
   text-align: center;
-  /*  _____REGISTRATE _______________   */
-  /* _______________ ENTIDADD_____________________ */
-  /*   VIAJE__FECHA  */
-  /*  articulo 2 */
 }
 main .main__index section article .registrate {
   margin: 10px;
@@ -112,9 +227,6 @@ main .main__index section article .viaje__fecha {
   background-color: #141313;
   font-family: "Orbitron", sans-serif;
 }
-main .main__index section article .viaje__fecha .h1__viaje {
-  color: #ffa500;
-}
 @media screen and (min-width: 200px) and (max-width: 1024px) {
   main .main__index section article .viaje__fecha .viaje__fecha {
     background-image: linear-gradient(to bottom, rgba(29, 29, 29, 0.462745098), rgba(0, 0, 0, 0.7921568627));
@@ -125,136 +237,13 @@ main .main__index section article .viaje__fecha .h1__viaje {
     background-color: rgba(29, 29, 29, 0.8901960784);
   }
 }
+main .main__index section article .viaje__fecha .h1__viaje {
+  color: #ffa500;
+}
 main .main__index section article .article__2 {
   height: 70vh;
   background-image: url(https://cdna.artstation.com/p/assets/images/images/027/204/838/large/justin-wentz-takeoff-final-v02-copy.jpg?1590880574);
   font-family: "Orbitron", sans-serif;
-}
-
-/* _______________ PAGINA_info______________________________________________*/
-.puedes {
-  background-color: #141313;
-  padding: 20px;
-}
-
-.my-conteiner__info {
-  width: auto;
-  height: auto;
-}
-
-.conteiner__mapa {
-  background-color: rgba(36, 34, 34, 0.6941176471);
-}
-
-.my-card__info {
-  border-radius: 50px 1px;
-  background-color: #ffa500;
-  background-repeat: no-repeat;
-}
-
-/*  __________________  ̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿   ___________________-*/
-/*                                Seguridad                                 */
-.container-lg {
-  text-align: center;
-  font-family: "Orbitron", sans-serif;
-}
-
-.my-seguridad {
-  background-image: url(https://cdnb.artstation.com/p/assets/images/images/012/320/861/large/vadim-sadovski-a6.jpg?1534192489);
-}
-
-.my-columna {
-  text-align: center;
-  font-family: "Orbitron", sans-serif;
-  background-image: url;
-}
-
-.my-card {
-  width: auto;
-  display: flex;
-  margin-top: 15rem;
-  margin-bottom: 20rem;
-}
-
-@media screen and (min-width: 200px) and (max-width: 1024px) {
-  .my-card {
-    height: 70vh;
-    overflow: auto;
-  }
-}
-.my-card__seguro {
-  background-image: linear-gradient(to bottom, rgba(29, 29, 29, 0.831372549), rgba(0, 0, 0, 0.9137254902));
-}
-
-.fondo__black {
-  background-color: #000000;
-}
-
-.mensaje_m {
-  text-align: center;
-  font-family: "Orbitron", sans-serif;
-  overflow: auto;
-  border-radius: 0px 70px 0 70px;
-  font-size: 2vw;
-  background-color: #ffa500;
-}
-
-/* ______________________________________________PAGINA DE SEGURIDAD ______________________________________________ */
-.col-lg-6 {
-  flex-direction: row;
-  align-items: center;
-}
-
-.flex_div {
-  display: none;
-  flex-direction: none;
-}
-
-@media screen and (min-width: 200px) and (max-width: 540px) {
-  .flex__div {
-    display: flex;
-    flex-direction: column;
-  }
-}
-.globo-conversacion {
-  background-color: #090909;
-  border-radius: 10px;
-  color: #000000;
-  padding: 10px;
-  position: relative;
-  max-width: 250px;
-  font-size: 16px;
-  font-family: "Orbitron", sans-serif;
-  margin-left: 55vw;
-}
-
-.globo-conversacion::before {
-  content: "";
-  position: absolute;
-  border-top: 20px solid #000000;
-  border-left: 10px solid transparent;
-  border-right: 20px solid transparent;
-  bottom: -20px;
-  left: 10px;
-}
-
-.globo-conversacion::after {
-  content: "";
-  position: absolute;
-  border-top: 20px solid #000000;
-  border-left: 10px solid transparent;
-  border-right: 20px solid transparent;
-  bottom: -18px;
-  left: 10px;
-}
-
-.main__seguridad {
-  background-image: url(https://cdnb.artstation.com/p/assets/images/images/045/607/005/large/vadim-sadovski-b35.jpg?1643124860);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 50px;
 }
 
 footer {
@@ -298,4 +287,4 @@ footer .row ul li i a:hover {
   font-size: 30px;
 }
 
-/*  ______________________ ( ͡° ͜ʖ ͡°)  <(sass)  __________________________ *//*# sourceMappingURL=estilo.css.map */
+/*  ______________________ ( ͡° ͜ʖ ͡°)  <(importaciones  sass)  __________________________ *//*# sourceMappingURL=estilo.css.map */
