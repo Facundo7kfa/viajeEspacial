@@ -5,87 +5,231 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vuelos</title>
-</head>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- SEO on page  -->
+    <meta name="description" content="Mira los vuelos disponibles con sus descuentos y su informacion" >
+    <meta name="keywords" content="viajes espaciales, turismo espacial, planetas, sistema solar, exploración espacial, características planetarias, trajes espaciales, microgravedad, investigación espacial, satélites artificiales.">
 
-<header>
-    <a href="#"> <img src="../asset/imag/LOGO1"  width="90hv" class="tune__logo" alt="logo"></a>
-
-    <nav>
-        <ul>
-            <li><a class="a
-                " href="../page/servicios.html">Servicios</a></li>
-                <li><a class="a
-                    " href="../page/informacion.html">Informacion</a></li>
-                    <li><a class="a
-                " href="../page/seguridad.html">Seguridad</a></li>
-                <li ><a class="a
-                " href="../page/index.html">inicio</a></li>
-        </ul> 
-    </nav>     
-    <hr> 
-</header> 
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
 <body>
-    
+<header>
+  <nav class="navbar navbar-expand-xl navbar-dark  " aria-label="Sixth navbar example">
+    <figure class="m-2"> 
+      <img src="../asset/imag/LOGO1" width="" height="90vh" alt="">
+    </figure>
+
+<div class="container-fluid">
+<a class="navbar-brand " href="#">Vuelos <span class="TUNE ">TUNE</span></a>
+      <button class="navbar-toggler btn-warning " type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false"aria-label="Toggle navigation">    
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample06">
+
+        <ul class="navbar-nav  mb-2 mb-xl-0 ">
+              <li class="nav-item mx-5">
+                  <a class="a" href="../page/servicios.html" target="_blank">Servicios</a>
+              </li> 
+                        <li class="mx-4">
+                          <a class="a" href="../page/informacion.html" target="_blank">Informacion</a>
+                            </li>
+                          <li class="mx-5">
+                        <a class="a" href="../page/seguridad.html" target="_blank">Seguridad</a>
+                    </li> 
+              <li class="mr-4">
+                <a class="a" href="../index.html" target="_blank">Inicio</a>
+            </li> 
+        </ul>
+  </div>
+
+</div>
+</nav>
+</header> 
 
 <main>
-        <form action=""> 
-            <fieldset>
-                    <Label for="text"><title>Servicios Tune</title></Label>
-                        <input type="text" id="buscador" placeholder="buscar mi proximo vuelo">
-                            <label for="soloplanetas">Solo planetas </label>
-                <input type="checkbox" name="soloplanetas" id="">
-            </fieldset>
-        </form>
+  <div class="container-fluid">
 
-        <section>  <article><h2>Novedades </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing 
-                elit. Sunt, amet quae. Nemo atque mollitiaam dignissimos excepturi totam, repudiandae corporis eligendi aut eos. Incidunt libero sint facere perspiciatis cupiditate, deserunt expedita omnis veritatis ipsa minima quia modi unde laudantium reprehenderit cum, amet non.
-                Modi vero, nesciunt officiis ipsam tempore perspiciatis impedit similique. Aliquam distinctio ut aspernatur quae debitis voluptates sequi possimus in quasi, nam dicta reprehenderit doloremque modi id. Numquam nemo in quaerat!
-                Illum labore commodi nam explicabo, aut et nesciunt! Cupiditate illo magni alias excepturi! Neque deleniti, corporis fugiat praesentium libero labore vel alias sit voluptas. Ratione repudiandae doloribus eius esse debitis?
-                Natus exercitationem atque cupiditate provident eius veritatis necessitatibus laudantium vitae, ratione, qui nisi laborum, maiores cum quis sint est labore fugit eligendi dolorem illo. Minima, labore. Quos, mollitia repudiandae! 
-                    voluptate quod, saepe corporis dicta a architecto recusandae consectetur 
-                    tempore earum voluptas neque ea dolorum? Deserunt?</p> <button>ver mas</button></article>
-        </section>
-        <section> <h2>Vuelos baratos en el mismo sistema solar  </h2>
-            <article>
-                <h3>Marte</h3>
-            </article>
-            <article> </article>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis at cor Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis optio vero pariatur eligendi officiis neque provident ad libero. Omnis quas enim libero eaque provident dignissimos inventore aliquam. Vitae, eos voluptates! rupti accusamus, fugit aut voluptas cumque temporibus ipsum laborum est tempore aliquam minima consectetur quod distinctio qui harum aspernatur assumenda! <img src="../imag/Marte4ba21fb392.jpg" width="400px" alt="" srcset=""> <button> comprar pasaje </button>
-            <article>  
-                <h3> jupiter </h3>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam est ab vitae in tempora. Iusto quisquam commodi, impedit at sunt reiciendis asperiores? Officia praesentium accusamus soluta cum unde, voluptate debitis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quae dolor reiciendis iusto magni illo debitis deserunt quisquam inventore iure impedit non numquam possimus sit sunt sed, libero consequuntur illum.
-        <figure> <img src="../imag/jupiter.jpg" alt="" width="400px"></figure><button> comprar pasaje </button>
-            </article>
+        <nav class="navbar navbar-light bg-warning rounded-3 my-navbar" >
+          <div class="container-fluid">
+            <a class="navbar-brand  animate__animated animate__backInRight animate__slower " ><strong>Buscardor</strong>-planeta</a> 
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Planeta name" aria-label="Search">
+              <button class="btn btn-dark" type="submit">Buscar</button>
+            </form>
+          </div>
+        </nav>
 
-            <article>
-                <h3> Urano</h3>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure repellat molestias rerum vel debitis nulla quibusdam, necessitatibus alias sint ipsa similique consequuntur, quod repellendus fugit sed dicta provident! Quam, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque obcaecati nam iusto voluptate enim cupiditate officiis culpa accusamus pariatur vitae impedit, mollitia at, ipsam qui officia illo facilis, magni ex.
-            <figure> <img src="../imag/urano.jpg" alt="" width="300px"></figure><button> comprar pasaje </button>
-            </article>
-            <article>
-                <h3>  Ciudad espacial  K.FA77  </h3>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolore fugiat aliquid optio asperiores distinctio provident, quia illo dolores magni neque eligendi eaque ratione ullam doloremque! Temporibus eius ea vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem alias veniam voluptatem natus reiciendis ad modi quo laudantium quasi sunt dolore et itaque, aspernatur hic! Quasi aperiam error accusantium quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, atque rerum, veritatis accusantium possimus molestiae itaque earum omnis sed dicta, dolore in velit delectus. Deserunt mollitia praesentium libero fugiat dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nulla a tenetur sed sequi, impedit qui ex similique nobis vero in, dolorum, velit optio veritatis magni commodi ipsam ab inventore! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo labore id officiis quos animi vel repellat odit hic nostrum velit iure laudantium architecto tempore doloremque consequuntur tenetur, quis eveniet consectetur?
-          <figure> <img src="../imag/estacionespacialjpg.jpg" alt="" width="330px"></figure>  <button> comprar pasaje </button>
-            </article>
-            </article>
-        </section>
+  </div>
 
+<section>  
+  
+  <div class="container-sm">
+  
+    <article class="bg-dark text-warning p-4 rounded-3"><h2>Novedades </h2>
+                      <p>Tune es una empresa líder en viajes espaciales que está revolucionando la forma de viajar por el universo. Recientemente, ha lanzado al mercado una nueva nave espacial que es más rápida y eficiente, lo que significa que los viajes a los planetas cercanos ahora son más cortos y más cómodos que nunca.
+                          Además, Tune esta creado nuevas rutas turísticas a destinos espaciales emocionantes. La compañía también ha desarrollado un programa de entrenamiento para astronautas que quieren experimentar la vida en el espacio de primera mano.
+                          A pesar de todas estas emocionantes novedades, hay una noticia desalentadora: los viajes a Venus se han detenido temporalmente debido a las guerras y conflictos que están afectando al planeta. Las condiciones en Venus se han vuelto peligrosas para los viajeros, y Tune está trabajando arduamente para encontrar soluciones para garantizar la seguridad de sus clientes.
+                           Tune es una empresa que siempre está innovando y buscando nuevas formas de hacer que la exploración espacial sea más emocionante y accesible para todos. Aunque hay obstáculos y desafíos en el camino, la compañía está comprometida con la seguridad y la satisfacción de sus clientes en cada viaje que realizan.</p> 
+                          <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle bg-warning text-dark" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            Ver mas
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                </article>
+ </div>       
+        
+          
+<article>
+
+<div class="container-lg">
+
+    <div class="row m-auto">
+          <h2 class="text-center">Vuelos mas populares </h2>
+
+
+            <div class="card bg-dark m-1 p-3" style="width: 18rem;">
+              <img src="../asset/imag/jupiter.jpg" class="" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Jupiter</h5>
+                <hr>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark me-md-2 my-button" type="button">comprar pasaje </a>
+              </div>
+            </div>
+          
+
+            <div class="card bg-dark m-1 p-3" style="width: 18rem;">
+              <img src="../asset/imag/Marte4ba21fb392.jpg" class=""  alt="">
+              <div class="card-body">
+                <h5 class="card-title">Marte</h5>
+                <hr>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark me-md-2 my-button" type="button" >Comprar pasaje</a>
+              </div>
+            </div>
+
+
+            <div class="card bg-dark m-1 p-3" style="width: 18rem;">
+              <img src="../asset/imag/urano.jpg" class="card-img-top " style="" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Urano</h5>
+                <hr>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#"  class="btn btn-dark me-md-2 my-button" type="button">Comprar pasaje</a>
+              </div>
+            </div>
+
+
+            <div class="card bg-dark m-1 p-3" style="width: 18rem;">
+              <img src="../asset/imag/estacionespacialjpg.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ciudad Espacial K.FA77</h5>
+                <hr>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#"  class="btn btn-dark me-md-2 my-button" type="button" >Comprar pasaje</a>
+              </div>
+            </div>
+
+
+            <div class="card bg-dark m-1 p-3 text-danger" style= "width: 18rem;"  >
+              <img src="../asset/imag/venus.jpg" class=".." alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Venus</h5>
+                <hr>
+                <p class="card-text">Planeta clasificado peligroso por la F.G (Federacion Galactica) por su actual estado de guerra y conquista   </p>
+                <a href="#"  class="btn btn-lg btn-danger" role="button" >pasaje solo para personal militar</a>
+                
+              </div>
+            </div>
+
+            <div class="card bg-dark m-1 p-3" style="width: 18rem;">
+              <img src="../asset/imag/mercurio.jpg" class=".." alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mercurio</h5>
+                <hr>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#"   class="btn btn-dark me-md-2 my-button" type="button"  >Comprar pasaje</a>
+              </div>
+            </div>
+
+            <div class="card bg-dark m-1 p-3" style="width: 18rem;">
+              <img src="../asset/imag/saturno.jpg" class="" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Saturno</h5>
+                <hr>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#"  class="btn btn-dark me-md-2 my-button" type="button" >Comprar pasaje</a>
+              </div>
+            </div>
+
+
+
+            <div class="card bg-dark m-1 p-3" style="width: 18rem;">
+              <img src="../asset/imag/neptun.jpg" class="" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Neptuno</h5>
+                <hr>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#"  class="btn btn-dark me-md-2 my-button" type="button"  >Comprar pasaje</a>
+              </div>
+            </div>
+
+  
+  </div>
+
+</div>
+</article>
+          
+          
+          
+        
+        
+
+</section>
 <hr>
 
 
-        <footer>
-
-            <div class="contacto"> 
-                <p> Copyright©2053 <strong> Contacts info.</strong>  tune.viajes@hotmail.com <strong>telefono</strong>      (455)342-23214</p> 
+<footer class="text-warning py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Contacto</h3>
+          <p>Base terrestre: Distrito kfa77</p>
+          <p>+1 (555) 525-34929k55</p>
+              <p>Tune.viajes@hotultramail.com</p> 
+        </div>
+        <div class="col-md-4">
+          <h3>Enlaces</h3>
+          <ul class="list-unstyled">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Destinos</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Suscribirse</h3>
+          <form>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Correo electrónico">
             </div>
-            
-            <div class="sponsors">  0000  0000  0000</div>
-            <div class="redes"> facebook instagram </div>
-            
-            </footer>
-            
-    
+            <button type="submit" class="btn btn-warning">Enviar</button>
+          </form>
+        </div>
+      </div>
+      <hr>
+      <p class="text-center">© 2023 <strong>TUNE</strong> viajes . Todos los derechos reservados.</p>
+    </div>
+
+</footer>
+<script src="../js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
 

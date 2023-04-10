@@ -1,0 +1,182 @@
+
+  
+  .main__servicios { background-image: url(https://cdnb.artstation.com/p/assets/images/images/045/607/005/large/vadim-sadovski-b35.jpg?1643124860);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+
+                  .my-card { width: auto;
+                    display: flex;
+                    margin-top: 15rem;
+                    margin-bottom:20rem ;    
+                              
+                            @media screen  and (min-width:200px) and (max-width:1024px){
+                                .my-card { height: 70vh;
+                                overflow:auto
+                                }
+                                
+                                }
+                  }
+
+
+  }
+  
+  .my-seguridad{ background-image: url(https://cdnb.artstation.com/p/assets/images/images/012/320/861/large/vadim-sadovski-a6.jpg?1534192489);}
+    
+    
+    .mensaje_m { 
+    text-align: center;
+    font-family: $tipografia-tune;
+    overflow: auto;
+    border-radius: map-get($bordes , $bordes-radio-r );
+    font-size: 2vw;
+    background-color:$dorado-blindado;
+    ;
+    }
+    
+    /* ______________________________________________PAGINA DE SEGURIDAD ______________________________________________ */
+
+
+  
+  .flex_div { 
+      display: none;
+      flex-direction: none;
+
+              @media screen and (min-width:200px) and (max-width:540px) {
+                  .flex__div {
+                      display: flex;
+                      flex-direction: column;
+                    }
+                
+                  
+            }
+}
+  
+
+.globo-conversacion {
+  background-color: #090909;
+  border-radius: 10px;
+  color: $galactic-black;
+  padding: 10px;
+  position: relative;
+  max-width: 250px;
+  font-size: 16px;
+  font-family: $tipografia-tune;
+  margin-left: 55vw;
+
+          &::before {
+        @include border-position (-20px);
+          }
+          &::after {
+          @include border-position (-18px);
+  }        
+}
+
+
+main {
+  background-color: $casi-black;
+
+
+  h1 h2 .col-sm-7 {
+  font-family: $tipografia-tune;
+}
+
+          .main__index {
+            background-image: url(https://cdnb.artstation.com/p/assets/images/images/027/204/833/large/justin-wentz-overhex-hangar-copy.jpg?1590882414);
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: auto;
+      
+                    @media screen  and (min-width:200px) and (max-width:1024px){
+                              .main__index {
+                                background-image: url( https://cdna.artstation.com/p/assets/images/images/000/678/574/large/jessica-rossier-concept-art-leaving-the-world-jessica-rossier.jpg?1443929515);
+                              }        
+                            }
+
+        
+                          .form-check-label {
+                                font-size: 30px;
+                                  }
+
+      section article {
+        font-family: $tipografia-tune;
+        color: $dorado-blindado;
+        text-align: center;
+                        
+                                        .registrate {
+                                          margin: 10px;
+                                          font-family: $tipografia-tune;
+                                          background-color:$dorado-blindado;
+                                          text-align: center;
+                                          border-radius: 50px 1px;
+                                          overflow: auto;
+                                              
+                                                    @media screen and (min-width: 1200px) and (max-width: 2000px) {
+                                                        .registrate {
+                                                          width: 20vw;
+                                                          height: 70vh;
+                                                        }
+                                                      }
+                                                            @media only screen and (min-width: 200px) and (max-width: 1198px) {  
+                                                              .registrate {
+                                                                background-color: $dorado-blindado;
+                                                                overflow: auto;
+                                                                height: 20vh;
+                                                              }
+                                    
+                                                        }
+            
+                                                }
+                        
+                                        .entidad {
+                                          height: 10vh;
+                                          color: blanchedalmond;
+                                          background-color: #00000096;
+                                          position: relative;
+                                          margin-left: 40%;
+                                          text-align: center;
+                                          font-family: $tipografia-tune;
+                                          overflow: auto;
+                                          border-radius: 50px 0 0 50px;
+                                          margin-bottom: 50px;
+                                        }
+    
+                                                  
+                                        .viaje__fecha {
+                                          background-color:$casi-black ;
+                                          font-family: $tipografia-tune;
+                                        
+                                                      @media screen  and (min-width:200px) and (max-width:1024px){
+                                                      .viaje__fecha { 
+                                                        background-image: linear-gradient(  to bottom ,  #1d1d1d76,  #000000ca);
+                                                        }
+                                                  }  
+                                
+                                                              @media only screen and (min-width: 200px) and (max-width: 1198px) {
+                                                              .viaje__fecha {
+                                                                background-color: #1d1d1de3;
+                                                              }
+                                                      } 
+                                        div_h1 { 
+                                          
+                                                .h1__viaje {
+                                                  color:$casi-black;
+                                                }
+                                                  }    
+                                                    }                                        
+      
+                                      .article__2 {
+                                        height: 70vh;
+                                        background-image: url(https://cdna.artstation.com/p/assets/images/images/027/204/838/large/justin-wentz-takeoff-final-v02-copy.jpg?1590880574);
+                                        font-family: $tipografia-tune
+                                        }
+                          }
+          }
+
+}               
+
+
+
+
