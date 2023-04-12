@@ -15,8 +15,6 @@
 header {
   font-family: "Orbitron", sans-serif;
   font-size: x-large;
- 
- 
 }
 
 nav ul li .a:hover {
@@ -27,7 +25,10 @@ nav ul li .a:hover {
   text-decoration: none;
   color: #ffa500;
   letter-spacing: 5px;
-  margin-left: 15px;
+}
+nav ul li .a { 
+  margin-left:50px ;
+  margin-right:50px;
 }
 .my-navbar {
   font-family: "Orbitron", sans-serif;
@@ -36,6 +37,13 @@ nav ul li .a:hover {
   background-color: #000000;
 }
 
+@media screen  and (min-width:200px) and (max-width:1024px){
+
+  nav ul li .a { 
+    margin-left:0 ;
+    margin-right:0;
+  }
+}
 
 /*_____________________________ BODY _____________________________________ */
 body {
@@ -50,7 +58,6 @@ body {
   text-align: center;
   border-radius: 50px 1px;
   overflow: auto;
-
 }
 /* ________________________________MAIN INDEX______________________________________ */
 main {
@@ -99,7 +106,7 @@ section article {
 }
 /* _____________________________________ARTICLE3 INDEX_______________________________________________________ */
 .entidad {
-  height: 10vh;
+  height: 20vh;
   color: blanchedalmond;
   background-color: #00000096;
   position: relative;
@@ -108,8 +115,62 @@ section article {
   font-family: "Orbitron", sans-serif;
   overflow: auto;
   border-radius: 50px 0 0 50px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
+
+.entidad__2{
+  height: 20vh;
+  color: blanchedalmond;
+  background-color: #00000096;
+  position: relative;
+  margin-left: 40%;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  overflow: hidden;
+  border-radius: 50px 0 0 50px;
+  
+}
+.registrate__2 {
+  margin: 10px;
+  font-family: "Orbitron", sans-serif;
+  background-color: #ffa500;
+  text-align: center;
+  border-radius: 50px 1px;
+ 
+}
+@media only screen and (min-width: 200px) and (max-width: 1198px) {
+  .viaje__fecha {
+    background-color: #1d1d1de3;
+  }
+  .registrate__2 {
+    background-color: #ffa600c5;
+    overflow:visible;
+    height: auto;
+  }
+.entidad__2{ 
+  position:static;
+margin: auto;
+border-radius: 50px 50px ;
+}
+.fondo__articulo {  background-image: url(https://cdna.artstation.com/p/assets/images/images/027/204/838/large/justin-wentz-takeoff-final-v02-copy.jpg?1590880574);
+  background-position: left;
+}
+.article__2 {
+  height: 70vh;
+  font-family: "Orbitron", sans-serif; 
+text-align: center;
+}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 2000px) {
+  .registrate__2 {
+    width: 20vw;
+    height: 70vh;
+  }
+
+
+}
+
 /* _________________________________________ pagina SErvic_________________________________ */
 
 .container-lg  {text-align: center;
