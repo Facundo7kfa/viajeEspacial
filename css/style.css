@@ -50,14 +50,12 @@ body {
   background-color: #222222;
 }
 
-/* ______________________________FORMULARIO INDEX _______________________ */
-.registrate {
-  margin: 10px;
-  font-family: "Orbitron", sans-serif;
-  background-color: #ffa500;
-  text-align: center;
-  border-radius: 50px 1px;
-  overflow: auto;
+.i_font { 
+  font-size: 20px;
+}
+.h_auto{
+  height: auto;
+  width: 18rem;
 }
 /* ________________________________MAIN INDEX______________________________________ */
 main {
@@ -78,6 +76,7 @@ h1 h2 .col-sm-7 {
 .viaje__fecha {
   background-color: #111010;
   font-family: "Orbitron", sans-serif;
+  
 }
 .form-check-label {
   font-size: 30px;
@@ -85,6 +84,7 @@ h1 h2 .col-sm-7 {
 .div_h1 {
   background: rgb(20,19,16);
 background: linear-gradient(90deg, rgba(20,19,16,0.04982503255208337) 0%,  rgb(255, 165, 0) 100%);
+
 }
 .h1__viaje {
   color:  #141313;
@@ -105,20 +105,9 @@ section article {
 
 }
 /* _____________________________________ARTICLE3 INDEX_______________________________________________________ */
-.entidad {
-  height: 20vh;
-  color: blanchedalmond;
-  background-color: #00000096;
-  position: relative;
-  margin-left: 40%;
-  text-align: center;
-  font-family: "Orbitron", sans-serif;
-  overflow: auto;
-  border-radius: 50px 0 0 50px;
-  margin-bottom: 80px;
-}
 
-.entidad__2{
+
+.entidad{
   height: 20vh;
   color: blanchedalmond;
   background-color: #00000096;
@@ -130,7 +119,7 @@ section article {
   border-radius: 50px 0 0 50px;
   
 }
-.registrate__2 {
+.registrate {
   margin: 10px;
   font-family: "Orbitron", sans-serif;
   background-color: #ffa500;
@@ -142,12 +131,16 @@ section article {
   .viaje__fecha {
     background-color: #1d1d1de3;
   }
-  .registrate__2 {
-    background-color: #ffa600c5;
+  .registrate {
+    background-color: #ffa600;
     overflow:visible;
     height: auto;
+
+    
   }
-.entidad__2{ 
+.entidad{ 
+  padding: 4px;
+  overflow: auto;
   position:static;
 margin: auto;
 border-radius: 50px 50px ;
@@ -163,7 +156,7 @@ text-align: center;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 2000px) {
-  .registrate__2 {
+  .registrate {
     width: 20vw;
     height: 70vh;
   }
@@ -172,6 +165,10 @@ text-align: center;
 }
 
 /* _________________________________________ pagina SErvic_________________________________ */
+
+.article_servi{ 
+  margin-top: 15em;
+}
 
 .container-lg  {text-align: center;
 font-family: "Orbitron", sans-serif;
@@ -187,7 +184,9 @@ font-family: "Orbitron", sans-serif;
   margin-bottom:20rem ;      
 }
 
-
+.color__contraste { 
+  color: #d78f08;
+}
 .fondo__black { 
   background-color: #000000;
 }
@@ -213,7 +212,7 @@ font-family: "Orbitron", sans-serif;
   font-family: "Orbitron", sans-serif;
   overflow: auto;
   border-radius: 0px 70px 0 70px;
-  font-size: 2vw;
+  font-size: 25px;
 background-color:#ffa500;
 ;
 }
@@ -224,9 +223,6 @@ background-color:#ffa500;
 
 
 
-.viajex:hover {
-  transform: scale(1.2);
-}
 
 
 /*_____________________________________ FOOTER__________________________________________________*/
@@ -296,7 +292,13 @@ height: auto;
   background-color: #ffa500;
 background-repeat: no-repeat ;
 }
+.my-card__vuelo { 
+  border-radius: 50px 1px;
 
+background-repeat: no-repeat ;
+padding: 10px;
+}
+.tamaño__icono { font-size: 25px;}
 .focus-in-expand {
 	animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -322,7 +324,19 @@ background-repeat: no-repeat ;
 }
 
 /* _______________imagen hover de informacion__________________ */
+.video-contenedor {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
 
+.video-contenedor iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .grid {
 	position: relative;
 	clear: both;
@@ -573,11 +587,6 @@ overflow:auto
 @media only screen and (min-width: 200px) and (max-width: 1198px) {
   .viaje__fecha {
     background-color: #1d1d1de3;
-  }
-  .registrate {
-    background-color: #ffa600c5;
-    overflow: auto;
-    height: 20vh;
   }
 
 

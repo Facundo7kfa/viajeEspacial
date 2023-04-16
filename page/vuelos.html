@@ -5,8 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vuelos</title>
+    <!-- boostrap refuerzo -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <!-- icono bostrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
     <!-- SEO on page  -->
     <meta name="description" content="Mira los vuelos disponibles con sus descuentos y su informacion" >
     <meta name="keywords" content="viajes espaciales, turismo espacial, planetas, sistema solar, exploración espacial, características planetarias, trajes espaciales, microgravedad, investigación espacial, satélites artificiales.">
@@ -15,7 +21,7 @@
   </head>
 <body>
 <header>
-        <nav class="navbar navbar-expand-xl navbar-dark  " aria-label="Sixth navbar example">
+        <nav class="navbar navbar-expand-xl navbar-dark " aria-label="Sixth navbar example">
             <figure class="m-2"> 
                 <img src="../asset/imag/LOGO1" width="" height="90vh" alt="">
                   </figure>
@@ -44,12 +50,21 @@
         </nav>
 </header> 
 
+
+
+
+
+
+
+
+
+
 <main>
   <div class="container-fluid">
 
         <nav class="navbar navbar-light bg-warning rounded-3 my-navbar" >
           <div class="container-fluid">
-            <a class="navbar-brand  animate__animated animate__backInRight animate__slower " ><strong>Buscardor</strong>-planeta</a> 
+            <a class="navbar-brand  animate__animated animate__backInRight animate__slower " ><strong><i class="bi bi-search"></i> Buscardor</strong>-planeta</a> 
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Planeta name" aria-label="Search">
               <button class="btn btn-dark" type="submit">Buscar</button>
@@ -59,158 +74,180 @@
 
   </div>
 
-<section>  
-  
-  <div class="container-sm">
-  
-    <article class="bg-dark text-warning p-4 rounded-3"><h2>Novedades </h2>
-                      <p>Tune es una empresa líder en viajes espaciales que está revolucionando la forma de viajar por el universo. Recientemente, ha lanzado al mercado una nueva nave espacial que es más rápida y eficiente, lo que significa que los viajes a los planetas cercanos ahora son más cortos y más cómodos que nunca.
-                          Además, Tune esta creado nuevas rutas turísticas a destinos espaciales emocionantes. La compañía también ha desarrollado un programa de entrenamiento para astronautas que quieren experimentar la vida en el espacio de primera mano.
-                          A pesar de todas estas emocionantes novedades, hay una noticia desalentadora: los viajes a Venus se han detenido temporalmente debido a las guerras y conflictos que están afectando al planeta. Las condiciones en Venus se han vuelto peligrosas para los viajeros, y Tune está trabajando arduamente para encontrar soluciones para garantizar la seguridad de sus clientes.
-                           Tune es una empresa que siempre está innovando y buscando nuevas formas de hacer que la exploración espacial sea más emocionante y accesible para todos. Aunque hay obstáculos y desafíos en el camino, la compañía está comprometida con la seguridad y la satisfacción de sus clientes en cada viaje que realizan.</p> 
-                          <div class="dropdown">
-                            <a class="btn btn-secondary dropdown-toggle bg-warning text-dark" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                            Ver mas
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                          </div>
-                </article>
- </div>       
-        
-          
+<section> 
+
+<div class="container-sm ">
+  <article class="fondo__black text-warning p-4 rounded-3"><h2>Novedades </h2>
+                <p>Tune es una empresa líder en viajes espaciales que está revolucionando la forma de viajar por el universo. Recientemente, ha lanzado al mercado una nueva nave espacial que es más rápida y eficiente, lo que significa que los viajes a los planetas cercanos ahora son más cortos y más cómodos que nunca.
+                    <div class="dropdown">
+                          <a class="btn btn-secondary dropdown-toggle bg-warning text-dark" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            ver mas 
+                                </a>
+                                    <ul class="dropdown-menu fondo__black text-warning" aria-labelledby="dropdownMenuLink">
+                                  <li class="p-2 align-items-center "> <p> Además, Tune esta creado nuevas rutas turísticas a destinos espaciales emocionantes. La compañía también ha desarrollado un programa de entrenamiento para astronautas que quieren experimentar la vida en el espacio de primera mano.
+                                  A pesar de todas estas emocionantes novedades, hay una noticia desalentadora: los viajes a Venus se han detenido temporalmente debido a las guerras y conflictos que están afectando al planeta. Las condiciones en Venus se han vuelto peligrosas para los viajeros, y Tune está trabajando arduamente para encontrar soluciones para garantizar la seguridad de sus clientes.
+                                Tune es una empresa que siempre está innovando y buscando nuevas formas de hacer que la exploración espacial sea más emocionante y accesible para todos. Aunque hay obstáculos y desafíos en el camino, la compañía está comprometida con la seguridad y la satisfacción de sus clientes en cada viaje que realizan.</p> 
+                              </p>
+                        </li>
+                  </ul>
+            </div>
+  </article>
+</div>       
+
 <article>
 
-<div class="container-lg">
-
-    <div class="row m-auto">
-          <h2 class="text-center">Vuelos mas populares </h2>
+                                  <div class="p-3 sm m-auto mt-3 mb-3 sombra__fondo">
+                                  <h1 class="text-center ">Vuelos mas populares </h1></div>
 
 
-            <div class="card bg-dark m-1 p-3 viajex" style="width: 18rem;">
-              <img src="../asset/imag/jupiter.jpg" class="" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Jupiter</h5>
-                <hr>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-dark me-md-2 my-button" type="button">comprar pasaje </a>
-              </div>
-            </div>
-          
-
-            <div class="card bg-dark m-1 p-3 viajex" style="width: 18rem;">
-              <img src="../asset/imag/Marte4ba21fb392.jpg" class=""  alt="">
-              <div class="card-body">
-                <h5 class="card-title">Marte</h5>
-                <hr>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-dark me-md-2 my-button" type="button" >Comprar pasaje</a>
-              </div>
-            </div>
+<div class="container-lg m-auto ">
+    <div class="row">
 
 
-            <div class="card bg-dark m-1 p-3 viajex" style="width: 18rem;">
-              <img src="../asset/imag/urano.jpg" class="card-img-top " style="" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Urano</h5>
-                <hr>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#"  class="btn btn-dark me-md-2 my-button" type="button">Comprar pasaje</a>
-              </div>
-            </div>
+    <div class="card bg-dark m-2 h_auto"  >
+        <img src="../asset/imag/jupiter.jpg" class="card-img-top" alt="...">
+        <div class="card-body fondo__black">
+          <h5 class="card-title">Jupiter</h5>
+          <hr>
+          <p class="card-text"> Por turismo o negocios disponibilidad abosoluta, (2 meses de tratamiento minimo por cambio de atmosfera )
+          </p>
+          <div class="sm bg-warning text-dark m-1"><i class="bi bi-currency-bitcoin i_font "></i> 3 </div>
+            <div class="sm bg-warning text-dark"><i class="bi bi-credit-card i_font"></i> $5000.000 </div>
+        
+          <a href="#" class="btn btn-dark">reservar pasajar</a>
+        </div>
+    </div>
 
-
-            <div class="card bg-dark m-1 p-3 viajex" style="width: 18rem;">
-              <img src="../asset/imag/estacionespacialjpg.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Ciudad Espacial K.FA77</h5>
-                <hr>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#"  class="btn btn-dark me-md-2 my-button" type="button" >Comprar pasaje</a>
-              </div>
-            </div>
-
-
-            <div class="card bg-dark m-1 p-3 text-danger viajex" style= "width: 18rem;"  >
-              <img src="../asset/imag/venus.jpg" class=".." alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Venus</h5>
-                <hr>
-                <p class="card-text">Planeta clasificado peligroso por la F.G (Federacion Galactica) por su actual estado de guerra y conquista   </p>
-                <a href="#"  class="btn btn-lg btn-danger" role="button" >pasaje solo para personal militar</a>
-                
-              </div>
-            </div>
-
-            <div class="card bg-dark m-1 p-3 viajex" style="width: 18rem;">
-              <img src="../asset/imag/mercurio.jpg" class=".." alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Mercurio</h5>
-                <hr>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#"   class="btn btn-dark me-md-2 my-button" type="button"  >Comprar pasaje</a>
-              </div>
-            </div>
-
-            <div class="card bg-dark m-1 p-3 viajex" style="width: 18rem;">
-              <img src="../asset/imag/saturno.jpg" class="" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Saturno</h5>
-                <hr>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#"  class="btn btn-dark me-md-2 my-button" type="button" >Comprar pasaje</a>
-              </div>
-            </div>
-
-
-
-            <div class="card bg-dark m-1 p-3 viajex" style="width: 18rem;">
-              <img src="../asset/imag/neptun.jpg" class="" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Neptuno</h5>
-                <hr>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#"  class="btn btn-dark me-md-2 my-button" type="button"  >Comprar pasaje</a>
-              </div>
-            </div>
-
+    
+    <div class="card bg-dark m-2 h_auto" >
+        <img src="../asset/imag/Marte4ba21fb392.jpg" class="card-img-top" alt="...">
+        <div class="card-body fondo__black">
+          <h5 class="card-title">Marte</h5>
+          <hr>
+          <p class="card-text">Biotecnologia establecida a la perfeccion sin necesidad de tratamientos medicos.(una semana en cuarentena por checkeo de neovirus)</p>
+            <div class="sm bg-warning text-dark m-1"><i class="bi bi-currency-bitcoin i_font "></i> 4 </div>
+            <div class="sm bg-warning text-dark"><i class="bi bi-credit-card i_font"></i> $8000.000 </div>
+          <a href="#" class="btn btn-dark">reservar pasajar</a>
+        </div>
+    </div>
   
-  </div>
+    <div class="card bg-dark m-2 h_auto">
+        <img src="../asset/imag/urano.jpg" class="card-img-top" alt="...">
+        <div class="card-body fondo__black">
+          <h5 class="card-title">Urano</h5>
+          <hr>
+          <p class="card-text">Consultar descuento para quimicos organanicos </p>
+            <div class="sm bg-warning text-dark m-1"><i class="bi bi-currency-bitcoin i_font "></i> 3 </div>
+            <div class="sm bg-warning text-dark"><i class="bi bi-credit-card i_font"></i> $8000.000 </div>
+        
+          <a href="#" class="btn btn-dark">reservar pasajar</a>
+        </div>
+    </div>
 
+    <div class="card bg-dark m-2 h_auto" >
+        <img src="../asset/imag/estacionespacialjpg.jpg" class="card-img-top" alt="...">
+        <div class="card-body fondo__black">
+          <h5 class="card-title">Ciudad Espacial kfa.77</h5>
+          <hr>
+          <p class="card-text">  tratado de libre comercio establecido agenos a leyes terrestres , turismo o negocios preparecense para la gran diferencia cultural. </p><div class="sm bg-warning text-dark m-1"><i class="bi bi-currency-bitcoin i_font "></i> 3 </div>
+            <div class="sm bg-warning text-dark"><i class="bi bi-credit-card i_font"></i> $5000.000 </div>
+       
+          <a href="#" class="btn btn-dark">reservar pasajar</a>
+        </div>
+    </div>
+
+    <div class="card bg-dark m-2 h_auto">
+        <img src="../asset/imag/venus.jpg" class="card-img-top" alt="...">
+        <div class="card-body fondo__black text-danger">
+          <h5 class="card-title">Venus </h5>
+          <hr>
+          <p class="card-text">Planeta clasificado peligroso por la F.G (Federacion Galactica) por su actual estado de guerra y conquista   </p>
+          </p>
+          <a href="#" class="btn btn-lg btn-danger  text-dark">reservar pasaje </a>
+
+          <div class="sm bg-darktext-danger m-1"><i class="bi bi-arrow-right-circle-fill i_font"></i> Soy personal militar </div>
+            
+        </div>
+    </div>
+
+    <div class="card bg-dark m-2 h_auto" >
+        <img src="../asset/imag/fredymercurio.jpg" class="card-img-top" alt="...">
+        <div class="card-body fondo__black">
+          <h5 class="card-title">Mercurio</h5>
+          <hr>
+          <p class="card-text"> Colonias en pleno Auge , ofertas de todo tipo para quienes busquen recidencia  </p>
+            <div class="sm bg-warning text-dark m-1"><i class="bi bi-currency-bitcoin i_font "></i> 3 </div>
+            <div class="sm bg-warning text-dark"><i class="bi bi-credit-card i_font"></i> $5000.000 </div>
+          
+          <a href="#" class="btn btn-dark">reservar pasajar</a>
+        </div>
+    </div>
+
+    <div class="card bg-dark m-2 h_auto" >
+        <img src="../asset/imag/saturno.jpg" class="card-img-top" alt="...">
+        <div class="card-body fondo__black">
+          <h5 class="card-title">Saturno</h5>
+          <hr>
+          <p class="card-text">Como agencia de viajes no nos hacemos cargo de las mutaciones geneticas q se producen despues de 8 meses de residencia. </p>
+            <div class="sm bg-warning text-dark m-1"><i class="bi bi-currency-bitcoin i_font "></i> 3 </div>
+            <div class="sm bg-warning text-dark"><i class="bi bi-credit-card i_font"></i> $5000.000 </div>
+         
+          <a href="#" class="btn btn-dark">reservar pasajar</a>
+        </div>
+    </div>
+
+    <div class="card bg-dark m-2 h_auto" >
+        <img src="../asset/imag/neptun.jpg" class="card-img-top" alt="...">
+        <div class="card-body fondo__black">
+          <h5 class="card-title">Neptuno</h5>
+          <hr>
+          <p class="card-text"> Sugerimos experimentar contacto con Aliens previamente al viaje para amortibuar el shock </p>
+            <div class="sm bg-warning text-dark m-1"><i class="bi bi-currency-bitcoin i_font "></i> 3 </div>
+            <div class="sm bg-warning text-dark"><i class="bi bi-credit-card i_font"></i> $5000.000 </div>
+         
+          <a href="#" class="btn btn-dark">reservar pasajar</a>
+        </div>
+    </div>
+
+
+
+
+
+      
+    
+
+      
+
+
+    </div>
 </div>
+
 </article>
-          
-          
-          
-        
-        
+
 
 </section>
 <hr>
 
 
-<footer class="text-warning py-4">
+<footer class="text-warning py-4 fondo__black">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
           <h3>Contacto</h3>
-          <p>Base terrestre: Distrito kfa77</p>
-          <p>+1 (555) 525-34929k55</p>
-              <p>Tune.viajes@hotultramail.com</p> 
+          <p><i class="bi bi-geo-alt"></i>  Base terrestre: Distrito kfa77</p>
+          <p><i class="bi bi-phone"></i> +1 (555) 525-34929k55</p>
+              <p><i class="bi bi-envelope-at"></i> Tune.viajes@hotultramail.com</p> 
         </div>
         <div class="col-md-4">
           <h3>Enlaces</h3>
           <ul class="list-unstyled">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Destinos</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#">instagram</a></li><i class="bi bi-instagram"></i>
+            <li><a href="#">facebook</a></li><i class="bi bi-facebook"></i>
+            <li><a href="#">twiter</a></li><i class="bi bi-twitter"></i>
           </ul>
         </div>
         <div class="col-md-4">
-          <h3>Suscribirse</h3>
+          <h3>Suscribirse <i class="bi bi-hand-index-thumb"></i></h3>
           <form>
             <div class="form-group">
               <input type="email" class="form-control" placeholder="Correo electrónico">
@@ -224,6 +261,8 @@
     </div>
 
 </footer>
+
+
 <script src="../js/bootstrap.bundle.min.js"></script>
 
 </body>
